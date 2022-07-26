@@ -1,8 +1,10 @@
 def is_palindrom(word):
     """
-        Returns answer whether a word is palindrome,
+        Function detects whether a given word is palindrome,
         which means that reading it from the beginning
         and from the end return the same value
+        Arguments:
+        word
     """
     return word[::-1] == word
 
